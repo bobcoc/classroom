@@ -187,6 +187,15 @@
   <ItemGroup>
     <ClInclude Include="classroom.h" />
     <ClInclude Include="classroomDlg.h" />
+    <ClInclude Include="comFuns.h" />
+    <ClInclude Include="CXml\Xml.h" />
+    <ClInclude Include="CXml\XmlNode.h" />
+    <ClInclude Include="CXml\XmlNodes.h" />
+    <ClInclude Include="CXml\Xsl.h" />
+    <ClInclude Include="httpclient\RyeolException.h" />
+    <ClInclude Include="httpclient\RyeolHttpClient.h" />
+    <ClInclude Include="httpclient\SafeInt.hpp" />
+    <ClInclude Include="reg\Registry.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -194,6 +203,14 @@
   <ItemGroup>
     <ClCompile Include="classroom.cpp" />
     <ClCompile Include="classroomDlg.cpp" />
+    <ClCompile Include="comFuns.cpp" />
+    <ClCompile Include="CXml\Xml.cpp" />
+    <ClCompile Include="CXml\XmlNode.cpp" />
+    <ClCompile Include="CXml\XmlNodes.cpp" />
+    <ClCompile Include="CXml\Xsl.cpp" />
+    <ClCompile Include="httpclient\RyeolException.cpp" />
+    <ClCompile Include="httpclient\RyeolHttpClient.cpp" />
+    <ClCompile Include="reg\Registry.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

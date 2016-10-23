@@ -4,7 +4,7 @@
 
 #pragma once
 #include "afxcmn.h"
-
+#include "httpclient\RyeolHttpClient.h"
 // CclassroomDlg ¶Ô»°¿ò
 class CclassroomDlg : public CDialogEx
 {

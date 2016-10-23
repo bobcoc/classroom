@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="reg">
+      <UniqueIdentifier>{77015c5e-ac69-44e4-bfca-04b761ae8884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CXml">
+      <UniqueIdentifier>{0792ed0a-8612-4ff2-935b-ea5ef27774a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httpclient">
+      <UniqueIdentifier>{2ff92833-fdca-4313-a204-c1a891c22f93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,6 +42,33 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="reg\Registry.h">
+      <Filter>reg</Filter>
+    </ClInclude>
+    <ClInclude Include="CXml\Xml.h">
+      <Filter>CXml</Filter>
+    </ClInclude>
+    <ClInclude Include="CXml\XmlNode.h">
+      <Filter>CXml</Filter>
+    </ClInclude>
+    <ClInclude Include="CXml\XmlNodes.h">
+      <Filter>CXml</Filter>
+    </ClInclude>
+    <ClInclude Include="CXml\Xsl.h">
+      <Filter>CXml</Filter>
+    </ClInclude>
+    <ClInclude Include="httpclient\RyeolException.h">
+      <Filter>httpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="httpclient\RyeolHttpClient.h">
+      <Filter>httpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="httpclient\SafeInt.hpp">
+      <Filter>httpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="comFuns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="classroom.cpp">
@@ -42,6 +78,30 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reg\Registry.cpp">
+      <Filter>reg</Filter>
+    </ClCompile>
+    <ClCompile Include="CXml\Xml.cpp">
+      <Filter>CXml</Filter>
+    </ClCompile>
+    <ClCompile Include="CXml\XmlNode.cpp">
+      <Filter>CXml</Filter>
+    </ClCompile>
+    <ClCompile Include="CXml\XmlNodes.cpp">
+      <Filter>CXml</Filter>
+    </ClCompile>
+    <ClCompile Include="CXml\Xsl.cpp">
+      <Filter>CXml</Filter>
+    </ClCompile>
+    <ClCompile Include="httpclient\RyeolException.cpp">
+      <Filter>httpclient</Filter>
+    </ClCompile>
+    <ClCompile Include="httpclient\RyeolHttpClient.cpp">
+      <Filter>httpclient</Filter>
+    </ClCompile>
+    <ClCompile Include="comFuns.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
